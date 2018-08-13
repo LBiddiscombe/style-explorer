@@ -1,0 +1,217 @@
+{
+  "results": [
+    { "name": "None", "latest": "" },
+    {
+      "name": "Aegis",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/aegis/1.3.3/aegis.min.css"
+    },
+    {
+      "name": "Base Guide",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/baseguide/2.2.0/css/baseguide.min.css"
+    },
+    {
+      "name": "Boot Flat",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/bootflat/2.0.4/css/bootflat.min.css"
+    },
+    {
+      "name": "Boot Swatch",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/cerulean/bootstrap.min.css"
+    },
+    {
+      "name": "Caiuss",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/caiuss/1.4.12/caiuss.min.css"
+    },
+    {
+      "name": "Clarity UI",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/clarity-ui/0.10.28/clarity-ui.min.css"
+    },
+    {
+      "name": "CSS Mint",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/CSS-Mint/2.0.6/css-mint.min.css"
+    },
+    {
+      "name": "Cutestrap",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/cutestrap/1.3.1/css/cutestrap.min.css"
+    },
+    {
+      "name": "Dinakit",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/DinaKit/1.2/css/cdn_dinakit.min.css"
+    },
+    {
+      "name": "Flat UI",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css"
+    },
+    {
+      "name": "Foundation Emails",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/foundation-emails/2.2.1/foundation-emails.min.css"
+    },
+    {
+      "name": "Foundation",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"
+    },
+    {
+      "name": "Bootstrap",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    },
+    {
+      "name": "Furtive",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/furtive/2.3.0/furtive.min.css"
+    },
+    {
+      "name": "Gemma",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/gemma/1.1.0/gemma.min.css"
+    },
+    {
+      "name": "Gumby",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/gumby/2.6.4/css/gumby.min.css"
+    },
+    {
+      "name": "Hack",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/hack.css"
+    },
+    {
+      "name": "Han",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/Han/3.3.0/han.min.css"
+    },
+    {
+      "name": "Kube",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/kube/6.5.2/css/kube.min.css"
+    },
+    {
+      "name": "Kube Lazy",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/kule.lazy/3.1.171101/css/kule-lazy.min.css"
+    },
+    {
+      "name": "Light 7",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/light7/0.4.3/css/light7.min.css"
+    },
+    {
+      "name": "Metro Bootsrap",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.7/m8tro.min.css"
+    },
+    {
+      "name": "Marx",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/marx/3.0.3/marx.min.css"
+    },
+    {
+      "name": "Materialize",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    },
+    {
+      "name": "Milligram",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css"
+    },
+    {
+      "name": "Min Center",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/min/1.5.0/entireframework.min.css"
+    },
+    {
+      "name": "Min Default",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.0/mini-default.min.css"
+    },
+    {
+      "name": "Mobi",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/mobi.css/3.1.1/mobi.min.css"
+    },
+    {
+      "name": "Modern Normalize",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css"
+    },
+    {
+      "name": "Mu",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/mu/0.3.1/mu.min.css"
+    },
+    {
+      "name": "Paper",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.min.css"
+    },
+    {
+      "name": "Papier",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/papier/1.3.1/papier.min.css"
+    },
+    {
+      "name": "Pavillion",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/pavilion/2.0.3/pavilion.min.css"
+    },
+    {
+      "name": "Photon",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/photon/0.1.2-alpha/css/photon.min.css"
+    },
+    {
+      "name": "Picnic",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/picnic/6.5.0/picnic.min.css"
+    },
+    {
+      "name": "Primer",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/Primer/10.8.1/build.css"
+    },
+    {
+      "name": "Pure",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css"
+    },
+    {
+      "name": "Sanitize",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.min.css"
+    },
+    {
+      "name": "Shoelace",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta9/shoelace.css"
+    },
+    {
+      "name": "Simple UI",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/simpleui/0.1.1/simple.min.css"
+    },
+    {
+      "name": "Skeleton",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    },
+    {
+      "name": "Seleton Framework",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/skeleton-framework/1.1.1/skeleton.min.css"
+    },
+    {
+      "name": "Spectre",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.3/spectre.min.css"
+    },
+    {
+      "name": "Tipograf",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/tipograf/2.0.0/tipograf.min.css"
+    },
+    {
+      "name": "Tocas UI",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css"
+    },
+    {
+      "name": "Topcoat",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/css/topcoat-mobile-dark.min.css"
+    },
+    {
+      "name": "Tufte",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.4/tufte.min.css"
+    },
+    {
+      "name": "Typebase",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/typebase.css/0.5.0/typebase.min.css"
+    },
+    {
+      "name": "Typeplate",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/typeplate-starter-kit/3.0.2/css/typeplate.min.css"
+    },
+    {
+      "name": "Web Starter",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/web-starter-kit/0.2.0-beta/styles/main.min.css"
+    },
+    {
+      "name": "Wing CSS",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/wingcss/0.1.9/wing.min.css"
+    },
+    {
+      "name": "Winstrap",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/winstrap/0.5.12/css/winstrap.min.css"
+    },
+    {
+      "name": "Zurb Link",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/zurb-ink/1.0.5/ink.min.css"
+    }
+  ]
+}
