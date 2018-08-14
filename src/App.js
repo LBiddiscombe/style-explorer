@@ -63,7 +63,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Style Explorer</h1>
+          <div>
+            <h1 className="App-title">Style Explorer</h1>
+            <div className="App-subtitle">
+              A curated CSS list for HTML Elements
+            </div>
+          </div>
         </header>
         <aside className="App-aside">
           <CSSSelect libs={this.state.list} changeStyle={this.changeStyle} />

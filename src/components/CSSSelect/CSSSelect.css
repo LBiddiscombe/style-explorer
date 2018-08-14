@@ -5,15 +5,14 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(15, minmax(24px, 1fr));
   padding-left: 1rem;
-  background-color: var(--bgcolor);
+  background-color: var(--asidebg);
   color: var(--fgcolor);
   margin: 0;
 }
 
 .csslistitem {
   list-style-type: none;
-  padding: 0.5rem;
-  width: 100%;
+  max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -22,10 +21,11 @@
 .csslistitem > .inputlabel {
   display: block;
   text-align: left;
+  padding: 0.5rem;
   width: 100%;
 }
 
 .csslistitem > .inputcheckbox {
   float: right;
-  margin-right: 1rem;
+  margin: 0.75rem;
 }

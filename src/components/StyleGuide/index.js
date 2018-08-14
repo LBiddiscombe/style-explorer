@@ -9,7 +9,7 @@ export default class StyleGuide extends Component {
           url="styleguide1.html"
           id="styleguide1"
           position="relative"
-          height="100vh"
+          height="calc(100vh - 75px)"
         />
       </div>
     )
