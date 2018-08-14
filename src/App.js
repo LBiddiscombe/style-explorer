@@ -20,10 +20,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    //fetch('https://api.cdnjs.com/libraries')
-    fetch(
-      'https://gist.githubusercontent.com/LBiddiscombe/c446013e1c111343c9c13dbcbb5bf04e/raw/37192d2baea4a1a0179b70a8ef04469368332dca/style-explorer.json'
-    )
+    fetch('./style-explorer.json')
       .then(blob => blob.json())
       .then(data => {
         const libs = data.results.filter(f => f.latest.indexOf('.css') > -1)
