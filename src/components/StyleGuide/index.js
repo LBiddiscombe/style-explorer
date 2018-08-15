@@ -1,17 +1,12 @@
-import React, { Component } from 'react'
-import Iframe from 'react-iframe'
+import React, { Component } from "react";
+import STYLEGUIDE_HTML from "../../assets/styleguide";
 
 export default class StyleGuide extends Component {
   render() {
     return (
       <div className="stylecontainer">
-        <Iframe
-          url="styleguide1.html"
-          id="styleguide1"
-          position="relative"
-          height="calc(100vh - 75px)"
-        />
+        <iframe id="styleguide1" title="styleguide" srcDoc={STYLEGUIDE_HTML} />
       </div>
-    )
+    );
   }
 }
