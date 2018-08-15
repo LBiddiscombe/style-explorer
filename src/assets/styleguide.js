@@ -1,3 +1,4 @@
+const STYLEGUIDE_HTML = `
 <!DOCTYPE html>
 <html lang="en">
 
@@ -507,3 +508,6 @@ for (i = 0; i < divs.length; ++i) {
 </body>
 
 </html>
+`;
+
+export default STYLEGUIDE_HTML;

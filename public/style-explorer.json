@@ -1,6 +1,6 @@
 {
   "results": [
-    { "name": "None", "latest": "" },
+    { "name": "_None", "latest": "" },
     {
       "name": "Aegis",
       "latest": "https://cdnjs.cloudflare.com/ajax/libs/aegis/1.3.3/aegis.min.css"
