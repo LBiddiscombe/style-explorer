@@ -10,6 +10,7 @@
 .App-header {
   grid-area: head;
   background-color: var(--fgcolor);
+  border-top: 2px solid var(--activebg);
   padding: 0 2rem;
   color: var(--bgcolor);
   display: grid;
@@ -34,8 +35,6 @@
 }
 
 .App-title {
-  width: 100vw;
-  justify-self: stretch;
   margin-top: 0.25rem;
 }
 
@@ -49,7 +48,6 @@
   grid-area: main;
   min-height: 100%;
   background-color: #fff;
-  xbox-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 15px 15px rgba(0, 0, 0, 0.15);
 }
 
 .App-aside {
@@ -92,4 +90,18 @@
 .stylecontainer > iframe {
   height: calc(100vh - 75px);
   width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    grid-template-columns: 0px 1fr 0px;
+    grid-gap: 0rem;
+  }
+  .App-header {
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .App-subtitle {
+    min-width: calc(100vw - 2rem);
+  }
 }
