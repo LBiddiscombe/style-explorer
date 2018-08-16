@@ -4,10 +4,12 @@
   --subtitlecolor: #888;
   --asidebg: #f9f1f1;
   --divider: 1px solid #ccc;
+  --activebg: #4caf50;
 }
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   overflow: hidden;
+  background-color: var(--bgcolor);
 }

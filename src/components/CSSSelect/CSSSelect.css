@@ -25,7 +25,17 @@
   width: 100%;
 }
 
+.csslistitem > .inputlabel:hover {
+  background-color: #ddd;
+}
+
 .csslistitem > .inputcheckbox {
+  display: none;
   float: right;
   margin: 0.75rem;
+}
+
+.csslistitem > .inputcheckbox:checked + label {
+  background-color: var(--activebg);
+  color: white;
 }
