@@ -7,7 +7,7 @@ export default class CSSSelect extends Component {
       .sort(function(a, b) {
         return a.name.localeCompare(b.name)
       })
-      .map(lib => (
+      .map((lib, i) => (
         <li className="csslistitem" key={lib.name}>
           <input
             type="radio"
@@ -16,6 +16,7 @@ export default class CSSSelect extends Component {
             value={lib.latest}
             onClick={this.props.changeStyle}
             className="inputcheckbox"
+            defaultChecked={i === 0}
           />
           <label htmlFor={lib.name} className="inputlabel">
             {lib.name}

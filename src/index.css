@@ -1,10 +1,12 @@
 :root {
-  --bgcolor: #f9f1f1;
+  --bgcolor: #f4f7f6;
   --fgcolor: #222;
+
+  --asidebg: #f4f7f6;
   --subtitlecolor: #888;
-  --asidebg: #f9f1f1;
-  --divider: 1px solid #ccc;
-  --activebg: #4caf50;
+
+  --activebg: #8ff243;
+  --activefg: #222;
 }
 body {
   margin: 0;

@@ -10,6 +10,29 @@ const STYLEGUIDE_HTML = `
   <link rel="stylesheet" id="pagestyle" type="text/css" href="" />
 </head>
 
+<style>
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track-piece{
+	background-color: #FFF;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #eee;
+	outline: 2px solid #FFF;
+	outline-offset: -2px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #ccc;
+}
+
+</style>
+
 <body>
   <!-- Beginning of Styleguide -->
 
@@ -508,6 +531,6 @@ for (i = 0; i < divs.length; ++i) {
 </body>
 
 </html>
-`;
+`
 
-export default STYLEGUIDE_HTML;
+export default STYLEGUIDE_HTML
