@@ -1,9 +1,9 @@
 .csslist {
-  grid-area: aside;
+  grid-row: 1 / 1;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(15, minmax(24px, 1fr));
+  grid-template-rows: repeat(16, minmax(24px, 1fr));
   padding-left: 1rem;
   background-color: var(--asidebg);
   color: var(--fgcolor);
@@ -38,4 +38,37 @@
 .csslistitem > .inputcheckbox:checked + label {
   background-color: var(--activebg);
   color: var(--activefg);
+}
+
+.paginationwrapper {
+  margin-top: -1rem;
+  background-color: var(--asidebg);
+  grid-row: 2 / 2;
+}
+
+.pagination {
+  display: inline-flex;
+  margin: auto;
+  padding: 0 0 1.5rem 0;
+}
+
+.pagination li {
+  list-style-type: none;
+}
+
+.pagination li a {
+  color: black;
+  float: left;
+  padding: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pagination li.active a {
+  background-color: var(--activebg);
+  color: var(--activefg);
+}
+
+.pagination li:hover:not(.active) a {
+  background-color: #ddd;
 }

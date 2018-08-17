@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './App.css'
 import StyleGuide from './components/StyleGuide'
 import CSSSelect from './components/CSSSelect'
-import ReactPaginate from 'react-paginate'
 
 class App extends Component {
   constructor(props) {
@@ -26,7 +25,9 @@ class App extends Component {
     fetch('./style-explorer.json')
       .then(blob => blob.json())
       .then(data => {
-        const libs = data.results
+        const libs = data.results.sort(function(a, b) {
+          return a.name.localeCompare(b.name)
+        })
 
         this.setState({
           libs,
@@ -85,22 +86,10 @@ class App extends Component {
             libs={this.state.list}
             changeStyle={this.changeStyle}
             selected={this.state.styleName}
+            pageCount={this.state.pageCount}
+            onPageChange={this.handlePageClick}
           />
         </aside>
-        <div className="paginationwrapper">
-          <ReactPaginate
-            previousLabel={'<'}
-            nextLabel={'>'}
-            breakLabel={<a href="">...</a>}
-            breakClassName={'break'}
-            pageCount={this.state.pageCount}
-            marginPagesDisplayed={1}
-            pageRangeDisplayed={2}
-            onPageChange={this.handlePageClick}
-            containerClassName={'pagination'}
-            activeClassName={'active'}
-          />
-        </div>
         <main className="App-main">
           <StyleGuide />
         </main>
