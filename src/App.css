@@ -2,20 +2,20 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 250px 1fr 250px;
-  grid-template-rows: 75px 1fr 75px;
+  grid-template-rows: 62px 1fr 56px;
   grid-template-areas: 'head head head' 'left main right' 'pages main right';
-  grid-gap: 0.5rem;
+  grid-gap: 1rem;
 }
 
 .App-header {
   grid-area: head;
   background-color: var(--fgcolor);
-  border-top: 2px solid var(--activebg);
-  padding: 0 2rem;
+  padding: 0.75rem 1rem;
   color: var(--bgcolor);
   display: grid;
   grid-template-columns: auto 1fr 75px;
   grid-template-areas: 'brand links view';
+  align-items: center;
 }
 
 .App-header__links {
@@ -35,7 +35,9 @@
 }
 
 .App-title {
-  margin-top: 0.25rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  margin: 0 0 0 0.5rem;
 }
 
 .App-subtitle {
@@ -48,6 +50,9 @@
   grid-area: main;
   min-height: 100%;
   background-color: #fff;
+  margin-top: -1rem;
+  border-left: 1px solid var(--bordercolor);
+  border-right: 1px solid var(--bordercolor);
 }
 
 .App-aside {

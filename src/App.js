@@ -61,12 +61,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div>
-            <h1 className="App-title">Style Explorer</h1>
-            <div className="App-subtitle">
-              A curated CSS list for HTML Elements
-            </div>
-          </div>
+          <svg height="32" width="32" viewBox="0 0 256 256">
+            <circle cx="128" cy="128" r="128" fill="white" />
+            <path
+              d="M100.90241,231.617947 L217.358491,192.964882 L256,0 L37.8672926,0 L29.5704613,43.055701 L204.381692,43.055701 L198.939063,70.5461768 L23.8620565,70.5461768 L15.2994493,113.601878 L190.122235,113.601878 L180.519635,162.88598 L109.973459,185.962264 L49.0183263,162.88598 L53.1782974,141.358129 L10.1225964,141.358129 L0,192.964882 L100.90241,231.617947"
+              fill="#24292e"
+            />
+          </svg>
+          <h1 className="App-title">
+            Style
+            <strong>Guide</strong>
+          </h1>
         </header>
         <aside className="App-aside">
           <CSSSelect
