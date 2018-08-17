@@ -55,6 +55,7 @@
 .stylecontainer > iframe {
   height: calc(100vh - 75px);
   width: 100%;
+  max-width: 100vw;
 }
 
 @media only screen and (max-width: 768px) {
