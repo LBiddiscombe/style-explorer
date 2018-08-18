@@ -69,10 +69,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="App-menu" onClick={this.toggleMenu}>
+          <i class="fa fa-2x fa-bars" />
+        </div>
         <header className="App-header">
-          <div className="App-menu" onClick={this.toggleMenu}>
-            <i class="fa fa-2x fa-bars" />
-          </div>
           <svg className="logo" width="32" height="32" viewBox="0 0 256 256">
             <path d="M238.299,63.025c11.246,19.044 17.701,41.248 17.701,64.947c0,70.646 -57.355,128 -128,128c-36.733,0 -69.872,-15.506 -93.224,-40.325l66.661,25.123l107.851,-35.217l29.011,-142.528Zm-195.836,-30.244l-7.087,36.186l161.894,0l-5.04,25.047l-162.141,0l-7.93,39.229l161.905,0l-8.893,44.904l-65.333,21.025l-56.451,-21.025l3.852,-19.615l-39.874,0l-4.899,24.571c-7.991,-16.7 -12.466,-35.397 -12.466,-55.131c0,-37.776 16.4,-71.753 42.463,-95.191Zm3.51,-3.044c22.22,-18.578 50.827,-29.765 82.027,-29.765c31.2,0 59.807,11.187 82.027,29.765l-164.054,0Z" />
           </svg>
