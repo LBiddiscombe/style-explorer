@@ -77,7 +77,7 @@
     margin-left: -250px;
   }
   .App-menu {
-    position: absolute;
+    position: fixed;
     top: 0.75rem;
     left: 0rem;
     grid-area: menu;
@@ -93,7 +93,7 @@
     transition: transform 0.2s linear;
     will-change: transform;
     opacity: 0.95;
-    position: sticky;
+    position: fixed;
     top: 56;
   }
   .App-aside.is-active {
