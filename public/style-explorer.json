@@ -26,6 +26,10 @@
       "latest": "https://cdnjs.cloudflare.com/ajax/libs/clarity-ui/0.10.28/clarity-ui.min.css"
     },
     {
+      "name": "CLMaterial",
+      "latest": "https://raw.githubusercontent.com/koso00/Materialess/master/src/css/clmaterial.css"
+    },
+    {
       "name": "CSS Mint",
       "latest": "https://cdnjs.cloudflare.com/ajax/libs/CSS-Mint/2.0.6/css-mint.min.css"
     },
@@ -166,7 +170,7 @@
       "latest": "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
     },
     {
-      "name": "Seleton Framework",
+      "name": "Skeleton Framework",
       "latest": "https://cdnjs.cloudflare.com/ajax/libs/skeleton-framework/1.1.1/skeleton.min.css"
     },
     {
