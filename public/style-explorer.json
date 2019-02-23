@@ -27,7 +27,7 @@
     },
     {
       "name": "CLMaterial",
-      "latest": "https://raw.githubusercontent.com/koso00/Materialess/master/src/css/clmaterial.css"
+      "latest": "https://cdn.jsdelivr.net/npm/cematerial@1.0.41/css/cematerial.min.css"
     },
     {
       "name": "CSS Mint",
